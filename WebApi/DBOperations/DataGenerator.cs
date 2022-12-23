@@ -1,0 +1,50 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Linq;
+
+namespace WebApi.DBOperations
+{
+    public class DataGenerator
+    {
+        public static void Initialize(IServiceProvider serviceProvider) 
+        {
+            using (var context = new BookStoreDBContext(serviceProvider.GetRequiredService<DbContextOptions<BookStoreDBContext>>()))
+            {
+                if(context.Books.Any())
+                {
+                    return;
+                }
+                context.Books.AddRange
+                     (
+                     new Book 
+                     {
+                         //Id = 1, 
+                         Title = "Sherlok Holmes",
+                         GenreId = 1, 
+                         PageCount = 250,
+                         PublishDate = new DateTime(2022, 5, 21) 
+                     },
+                     new Book 
+                     {   
+                        //Id = 2, 
+                         Title = "Learn Reactjs",
+                         GenreId = 2,
+                         PageCount = 300,
+                         PublishDate = new DateTime(2021, 2, 5)
+                     },
+                     new Book 
+                     { 
+                        // Id = 3,
+                         Title = "C# beginner to advanced", 
+                         GenreId = 3,
+                         PageCount = 120,
+                         PublishDate = new DateTime(2010, 3, 31)
+                     }
+                     );
+                context.SaveChanges();
+            }
+
+        }
+    }
+}
