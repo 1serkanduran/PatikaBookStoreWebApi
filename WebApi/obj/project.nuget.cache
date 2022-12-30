@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "X6Ha2x15MZGW9QmRsoNn+rcTTdZ2/lA50z+zjtdykNryQD85XtHkqP+Ck5trE+YNauNlChtUO5RNTAXPoCiA/w==",
+  "dgSpecHash": "EEKQpq5MFesf7Q4E9348kPAR/Ryn8M0vvOF6WtUsN9wSuIHEhonEed2Id2d3W2C8asiWXgrS6AeaRKIUFmyrOA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\Pratikler\\BookStore\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\Lenovo\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.6\\microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.6\\microsoft.entityframeworkcore.abstractions.5.0.6.nupkg.sha512",
