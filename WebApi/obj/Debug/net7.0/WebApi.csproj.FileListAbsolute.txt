@@ -33,3 +33,5 @@ C:\Users\Lenovo\Desktop\Pratikler\BookStore\WebApi\obj\Debug\net7.0\refint\WebAp
 C:\Users\Lenovo\Desktop\Pratikler\BookStore\WebApi\obj\Debug\net7.0\WebApi.pdb
 C:\Users\Lenovo\Desktop\Pratikler\BookStore\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 C:\Users\Lenovo\Desktop\Pratikler\BookStore\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\Users\Lenovo\Desktop\Pratikler\BookStore\WebApi\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Lenovo\Desktop\Pratikler\BookStore\WebApi\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
