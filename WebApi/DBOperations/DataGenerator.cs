@@ -16,6 +16,27 @@ namespace WebApi.DBOperations
                 {
                     return;
                 }
+                context.Authors.AddRange
+                (
+                    new Author
+                    {
+                        Name="Tolstoy",
+                        Surname="Tols",
+                        DateOfBirth=new DateTime(1890,10,15)
+                    },   
+                    new Author
+                    {
+                        Name="Dostoyevski",
+                        Surname="Dosto",
+                        DateOfBirth=new DateTime(1890,10,15)
+                    },
+                    new Author
+                    {
+                        Name="Gabriel",
+                        Surname="Marquez",
+                        DateOfBirth=new DateTime(1890,10,15)
+                    }                 
+                );
                 context.Genres.AddRange
                 (
                     new Genre
